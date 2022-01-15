@@ -103,20 +103,21 @@ Collection part
     height: 476px;
     border-radius: 10px;
     box-shadow: 10px 10px 10px 10px rgb(238, 229, 229);
-    padding: 25px;
+    padding: 10px;
+    padding-bottom: 20px;
 }
 
-.one-item:hover .item-image{
+/* .one-item:hover .item-image{
     transform: scale(1.1);
     transition: transform 1s;
-}
+} */
 .item-image{
     display: flex;
     justify-content: center;
 }
 
 .item-image img{
-    width: 300px;
+    width: 320px;
     height: 256px;
 }
 .item-detail p{
