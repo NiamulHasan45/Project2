@@ -4,6 +4,10 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
+/* ========================
+Home page design
+======================== */
+
 main, .container-one{
     max-width: 1200px;
     margin: 0 auto;
@@ -37,7 +41,6 @@ p{
 
 .first-section{
     display:flex;
-    /* justify-content: center; */
 }
 .left-container{
  width: 600px;
@@ -71,10 +74,8 @@ p{
     align-items: center;
 }
 .right-photo-frame{
- /* background-color: burlywood; */
- width: 475px;
- height: 475px;
-    /* border-radius: 50%; */
+    width: 475px;
+    height: 475px;
     border: 2px solid rgb(230, 230, 230);
     overflow: hidden;
 }
@@ -102,14 +103,16 @@ Collection part
     height: 476px;
     border-radius: 10px;
     box-shadow: 10px 10px 10px 10px rgb(238, 229, 229);
-    padding-left: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 25px;
 }
 
 .one-item:hover .item-image{
     transform: scale(1.1);
     transition: transform 1s;
+}
+.item-image{
+    display: flex;
+    justify-content: center;
 }
 
 .item-image img{
@@ -175,7 +178,9 @@ See-more button
 
 /* Responsibeness- Midia query */
 @media (min-width:577px) and (max-width: 768px){
-        
+        .first{
+            margin-top: 20px;
+        }
         main, .container-one{
             max-width: 100%;
             margin: 0 3%;
@@ -226,6 +231,9 @@ See-more button
     
 }
 @media (max-width:576px) {
+    .first{
+        margin-top: 20px;
+    }
     main, .container-one{
         max-width: 100%;
         margin: 0 3%;
