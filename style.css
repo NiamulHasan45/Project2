@@ -187,7 +187,6 @@ High rated Products
 }
 .photo-frame{
     width: 200px;
-    /* height: 150px; */
     position: relative;
     margin: 20px;
     overflow: hidden;
@@ -203,8 +202,13 @@ High rated Products
 }
 .photo-detail h3{
     display: block;
-    background-color: seashell;
-
+    background-color: #E02C6D;
+    color: white;
+    padding: 5px;
+}
+.photo-frame p{
+    color: white;
+    padding: 4px;
 }
 .photo-frame:hover .photo-detail{
     display: block;
@@ -221,6 +225,7 @@ High rated Products
         .first{
             margin-top: 20px;
         }
+       
         main, .container-one{
             max-width: 100%;
             margin: 0 3%;
@@ -244,6 +249,9 @@ High rated Products
             flex-direction: column;
             align-items: center;
            }
+           .button{
+            margin-bottom: 20px;
+        }
         .right-container{
             width: 80%;
             flex-wrap: wrap;
@@ -297,6 +305,9 @@ High rated Products
         flex-direction: column;
         align-items: center;
        }
+       .button{
+        margin-bottom: 20px;
+    }
     .right-container{
         width: 80%;
         flex-wrap: wrap;
